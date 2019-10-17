@@ -16,7 +16,7 @@ Here is the final board that may be printed. Adjustmests may be made to this ver
 
 ![alt text](Images/PCBPrinting.png)
 
-[Link to Fritzing Files](https://github.com/RDinh/NFCRFID/blob/master/Images/ProofOfPurchase.jpg)
+[Link to Fritzing Files](https://github.com/RDinh/NFCRFID/tree/master/Electronics)
 ### Week 4
 Only the NFCRFID Breakout Board was purchased. The project will be developed on an exisiting RaspberryPi 2 and other equipment.
 ![alt text](https://github.com/RDinh/NFCRFID/blob/master/Images/ProofOfPurchase.jpg)
