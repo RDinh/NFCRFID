@@ -14,7 +14,7 @@ Here is the PCB view with the RPI and NFC breakout board(not printing this versi
 
 Here is the final board that may be printed. Adjustmests may be made to this version of the board.
 
-![alt text](Images/PCBPrint.png)
+![alt text](Images/PCBPrinting.png)
 
 [Link to Fritzing Files](https://github.com/RDinh/NFCRFID/blob/master/Images/ProofOfPurchase.jpg)
 ### Week 4
