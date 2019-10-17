@@ -3,6 +3,7 @@ V1 PCB Designed. May need to make some adjustments later on.
 ![alt text](Images/BreadboardView.png)
 ![alt text](Images/PCB_w_RPI_NFC.png)
 ![alt text](Images/PN532_w._RPI_schem.png)
+![alt text](Images/PCBPrint.png)
 [Link to Fritzing Files](https://github.com/RDinh/NFCRFID/blob/master/Images/ProofOfPurchase.jpg)
 ### Week 4
 Only the NFCRFID Breakout Board was purchased. The project will be developed on an exisiting RaspberryPi 2 and other equipment.
