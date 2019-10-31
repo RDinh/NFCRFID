@@ -5,13 +5,13 @@ The PN532 was wired by following the Breadboard View image found in Week 7. The 
 Some standoffs,scews and nuts were recently purchased. The budget is on track and available for any other purchases.
 
 Here is the overview of the wired breadboard and tested output.
-![alt text](Images/WiredBreadboardOverview.png)
+![alt text](Images/WiredBreadboardOverview.jpg)
 
 Here is the image of the breadboard.
-![alt text](Images/WiredBreadboard.png)
+![alt text](Images/WiredBreadboard.jpg)
 
 Here is a closed image of the output.
-![alt text](Images/WiredBreadboardVOutput.png)
+![alt text](Images/WiredBreadboardVOutput.jpg)
 
 
 ### Week 7
