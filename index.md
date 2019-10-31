@@ -11,7 +11,7 @@ Here is the image of the breadboard.
 ![alt text](Images/WiredBreadboard.jpg)
 
 Here is a closed image of the output.
-![alt text](Images/WiredBreadboardVOutput.jpg)
+![alt text](Images/WiredBreadboardOutput.jpg)
 
 
 ### Week 7
