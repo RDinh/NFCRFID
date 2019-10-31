@@ -7,10 +7,10 @@ Some standoffs,scews and nuts were recently purchased. The budget is on track an
 Here is the overview of the wired breadboard and tested output.
 ![alt text](Images/WiredBreadboardOverview.jpg)
 
-Here is the image of the breadboard.
+Here is the close up image of the breadboard.
 ![alt text](Images/WiredBreadboard.jpg)
 
-Here is a closed image of the output.
+Here is a close up image of the output.
 ![alt text](Images/WiredBreadboardOutput.jpg)
 
 
