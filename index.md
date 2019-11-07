@@ -12,7 +12,7 @@ The header pins were soldered and the vias on the PCB were connected. There was 
 ![alt text](Images/SolderedPCB.jpg)
 ![alt text](Images/SolderedPCB2.jpg)
 ![alt text](Images/PCBFix.jpg)
-
+![alt text](Images/PCBOverView.jpg)
 
 ### Week 8
 
