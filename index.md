@@ -27,7 +27,7 @@ The PCB was then plugged into the RPI and some tests were done. Here is an image
 
 
 The PCB was then wired to the PN532 and tested to see if can read a NFC tag. Here was the result
-![alt text](Images/Test_OverView.jpg)
+![alt text](Images/Test_Overview.jpg)
 ![alt text](Images/Test_Wiring.jpg)
 ![alt text](Images/Test_PCB_Output.jpg)
 
