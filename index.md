@@ -36,6 +36,8 @@ The PN532 was then mounted onto the PN532 and tested to see if was operational. 
 ![alt text](Images/Mounted_Test.jpg)
 ![alt text](Images/Mounted_Output.jpg)
 
+I am currently working on the enclosure for this project and will be able to meet the deadline on Nov. 21 2019.
+
 
 ### Week 8
 
