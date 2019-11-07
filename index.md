@@ -9,10 +9,30 @@ Some female header pins were purchased to be soldered on to the PCB. A 10 pin wa
 
 The header pins were soldered and the vias on the PCB were connected. There was an issue with the PCB design where there was no Ground connection between the 6pin and the 9pin headers. The PCB was then modified using 22 AWG wire to connect the ground and the continunity between the all pins had been checked. The images of the soldered PCB and the modified board are posted below.
 
+Here is the bottom side of the PCB.
 ![alt text](Images/SolderedPCB.jpg)
+Here is the top side of the PCB.
 ![alt text](Images/SolderedPCB2.jpg)
+Here is the fixed PCB.
 ![alt text](Images/PCBFix.jpg)
+Here is the verview of the mounted PN532 on the PCB.
 ![alt text](Images/PCBOverView.jpg)
+
+The PCB was then plugged into the RPI and some tests were done. Here is an image of 3.3V being measured across VCC and GND.
+![alt text](Images/PCB_Voltage_Output.jpg)
+![alt text](Images/VoltageTest.jpg)
+
+
+The PCB was then wired to the PN532 and tested to see if can read a NFC tag. Here was the result
+![alt text](Images/TestOverView.jpg)
+![alt text](Images/Test_Wiring.jpg)
+![alt text](Images/Test_PCB_Output.jpg)
+
+The PN532 was then mounted onto the PN532 and tested to see if was operational. Here was the result
+
+![alt text](Images/Mounted_Test.jpg)
+![alt text](Images/Mounted_Output.jpg)
+
 
 ### Week 8
 
