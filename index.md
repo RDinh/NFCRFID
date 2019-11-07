@@ -15,8 +15,8 @@ Here is the top side of the PCB.
 ![alt text](Images/SolderedPCB2.jpg)
 Here is the fixed PCB.
 ![alt text](Images/PCBFix.jpg)
-Here is the verview of the mounted PN532 on the PCB.
-![alt text](Images/PCBOverView.jpg)
+Here is the overview of the mounted PN532 on the PCB.
+![alt text](Images/PCBOverview.jpg)
 
 The PCB was then plugged into the RPI and some tests were done. Here is an image of 3.3V being measured across VCC and GND.
 ![alt text](Images/PCB_Voltage_Output.jpg)
