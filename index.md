@@ -1,3 +1,19 @@
+### Week 9
+The PCB was printed using a modified design so that the enclosure would allow the RPI usb and ethernet to be usable.
+
+Here is the modified PCB image:
+![alt text](Images/FinalPCB.png)
+
+Some female header pins were purchased to be soldered on to the PCB. A 10 pin was cut down to 9 pins to fit onto the PCB and the PN532. Also a 6pin stackable header provided by the Prototype Lab was soldered on to connect to the RPI.
+![alt text](Images/9Pin.png)
+
+The header pins were soldered and the vias on the PCB were connected. There was an issue with the PCB design where there was no Ground connection between the 6pin and the 9pin headers. The PCB was then modified using 22 AWG wire to connect the ground and the continunity between the all pins had been checked. The images of the soldered PCB and the modified board are posted below.
+
+![alt text](Images/SolderedPCB.png)
+![alt text](Images/SolderedPCB2.png)
+![alt text](Images/PCBFix.png)
+
+
 ### Week 8
 
 The PN532 was wired by following the Breadboard View image found in Week 7. The following were wired from the RPI to the PN532:VCC,GND,SDA and SCL (for I2C). Upon startup and with some configurations, the PN532 was picked up by RPI using I2C. The project is currently in track to be completed.
