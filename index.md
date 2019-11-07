@@ -1,4 +1,6 @@
-### Week 9
+### Week 9 
+*Note there is an Image Orientation Bug. Sorry for the inconvenience. 
+
 The PCB was printed using a modified design so that the enclosure would allow the RPI usb and ethernet to be usable.
 
 Here is the modified PCB image:
