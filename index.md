@@ -19,8 +19,9 @@ Here is the overview of the mounted PN532 on the PCB.
 ![alt text](Images/PCBOverview.jpg)
 
 The PCB was then plugged into the RPI and some tests were done. Here is an image of 3.3V being measured across VCC and GND.
-![alt text](Images/PCB_Voltage_Output.jpg)
 ![alt text](Images/VoltageTest.jpg)
+![alt text](Images/PCB_Voltage_Output.jpg)
+
 
 
 The PCB was then wired to the PN532 and tested to see if can read a NFC tag. Here was the result
