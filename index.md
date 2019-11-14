@@ -8,8 +8,7 @@ The base took approximately 2 hours to print using the Ultimaker 2+(at the Humbe
 ![alt text](Images/SideInsideEnclosure.jpg)
 ![alt text](Images/I_OInsideEnclosure.jpg)
 ![alt text](Images/PN532_InsideEnclosure.jpg)
-![alt text](Images/BottomEnclosure.jpg)
-
+![alt text](Images/BottomEnclosure2.jpg)
 
 ***Progress***
 Some more time needs to spent designing the enclosure and assembling in Inventor before printing at the Humber Idea Lab and at a local library with 3D printers. The raspberryPi,PN532 and PCB board are operating as expected when assembled together.
