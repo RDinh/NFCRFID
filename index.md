@@ -19,7 +19,7 @@ The project is currently on track to being completed with the following remainin
 All items currently bought are within the estimated budget for the project. The raspberryPi 2 B+ was previously owned, therefore it was not included in the following purchased items.
 
 Here is the cost of all the bought items:
-![alt text](Images/CurrentBudget.jpg)
+![alt text](Images/CurrentBudget.JPG)
 
 ***Problems***
 Currently a lot of time is spent in AutoDesk Inventor to design and assemble the enclosure. When printed the holes were a bit small for the screws to sit inside a counterbore and was not able to sit flush the printed enclosure. The holes had to be widened for the screws to be seated properly to meet the design. Adjustments will be made to the design in Inventor to mitigate this issue in the future.
