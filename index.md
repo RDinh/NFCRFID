@@ -1,3 +1,30 @@
+### Week 10
+This week was spent mostly designing the base of the enclosure. It is the most important part where it maintains the structure of the connected devices. The base was designed in AutoDesk Inventor with imported CADs from the official raspberryPi website and with an exported PDF of the overlays of the designed PCB from Fritzing.
+
+The base took approximately 2 hours to print using the Ultimaker 2+(at the Humber College Idea Lab) and the following images are the result. There was some damage caused to one of the standoffs for the raspberryPi due to user error when inserting the screws with too much force.
+
+![alt text](Images/InventorSideProfile.jpg)
+![alt text](Images/Cura1.jpg)
+![alt text](Images/SideInsideEnclosure.jpg)
+![alt text](Images/I_OInsideEnclosure.jpg)
+![alt text](Images/PN532_InsideEnclosure.jpg)
+![alt text](Images/BottomEnclosure.jpg)
+
+
+***Progress***
+Some more time needs to spent designing the enclosure and assembling in Inventor before printing at the Humber Idea Lab and at a local library with 3D printers. The raspberryPi,PN532 and PCB board are operating as expected when assembled together.
+
+The project is currently on track to being completed with the following remaining tasks:designing/printing enclosure, preparing for the project presenetation and creating the build instructions. 
+
+***Budget***
+All items currently bought are within the estimated budget for the project. The raspberryPi 2 B+ was previously owned, therefore it was not included in the following purchased items.
+
+Here is the cost of all the bought items:
+![alt text](Images/CurrentBudget.jpg)
+
+***Problems***
+Currently a lot of time is spent in AutoDesk Inventor to design and assemble the enclosure. When printed the holes were a bit small for the screws to sit inside a counterbore and was not able to sit flush the printed enclosure. The holes had to be widened for the screws to be seated properly to meet the design. Adjustments will be made to the design in Inventor to mitigate this issue in the future.
+
 ### Week 9 
 *Note there is an Image Orientation Bug. Sorry for the inconvenience. 
 
