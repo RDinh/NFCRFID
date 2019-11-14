@@ -8,7 +8,7 @@ The base took approximately 2 hours to print using the Ultimaker 2+(at the Humbe
 ![alt text](Images/SideInsideEnclosure.jpg)
 ![alt text](Images/I_OInsideEnclosure.jpg)
 ![alt text](Images/PN532_InsideEnclosure.jpg)
-![alt text](Images/BottomEnclosure .jpg)
+![alt text]("Images/BottomEnclosure .jpg")
 
 
 ***Progress***
