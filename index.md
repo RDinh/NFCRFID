@@ -3,7 +3,7 @@ This week was spent mostly designing the base of the enclosure. It is the most i
 
 The base took approximately 2 hours to print using the Ultimaker 2+(at the Humber College Idea Lab) and the following images are the result. There was some damage caused to one of the standoffs for the raspberryPi due to user error when inserting the screws with too much force.
 
-![alt text](Images/InventorSideProfile.jpg)
+![alt text](Images/InventorSideProfile.JPG)
 ![alt text](Images/Cura1.jpg)
 ![alt text](Images/SideInsideEnclosure.jpg)
 ![alt text](Images/I_OInsideEnclosure.jpg)
