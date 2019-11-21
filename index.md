@@ -3,6 +3,8 @@ The enclsoure was designed in Inventor and 3D printed in parts at sevreral libra
 
 Here is the link to the Design Files:
 
+Assembly of all Components are Shown Below.
+
 To attached the device to the case several stand-offs, screws and nuts were used. Here is the list and images
 with specifics:
 --Bottom of Case--
@@ -11,35 +13,35 @@ Attach RPI with:
 
 4x M2.5*12+6 Nylon Stand-offs - On top of RPI Mounting Holes(Screw Side Up)
 4x M2.5*6 Screws - Go through the bottom case and through the RPI mounting holes.
-![alt text](Images/Assembly1.JPG)
+![alt text](Images/Assembly1.jpg)
 
 Stand-offs for PN532:
 
 2x M3*20+6 Standoffs -  On Top of the Bottom Case (Screw Side Up)
 2x M3*8+6 Standoffs - Added on top of the M3*20+6 Standoffs
 2x M3*6 Screws- That go through the Bottom case (Opposite of the USB Ports)
-![alt text](Images/Assembly2.JPG)
+![alt text](Images/Assembly2.jpg)
 
 --PCB Section --
 4x M2.5*12+6 Nylon Stand-offs - Stacked pairs of 2 at the corners of the PCB near the USB ports.(Screw Side Up)
 2x M2.5 Nuts - corners of PCB near the SD Card Slot.
 2x M3*10+6 Standsoffs - 1 at each end of the Female Pin Header for the PN532. (Hole Facing Up)
 2x M3 Nuts -Holding the M3 Stand-offs in place at the bottom of the PCB.
-![alt text](Images/Assembly3.JPG)
+![alt text](Images/Assembly3.jpg)
 
 --Attaching PN532--
 2x M3*6 Screws - Mounted onto the stand-offs installed onto PCB
 2x M3*12+6 - Attached to the Stand-offs from the bottom of the case(Screw Side Up)
-![alt text](Images/Assembly4.JPG)
+![alt text](Images/Assembly4.jpg)
 --Attaching Lids--
 2x M2.5 Nuts - for the lid near the USB Ports
 2x M3 Nuts - for the lid opposite the USB Ports
 
-![alt text](Images/Assembly5.JPG)
+![alt text](Images/Assembly5.jpg)
 
-![alt text](Images/Assembly6.JPG)
-![alt text](Images/Assembly7.JPG)
-![alt text](Images/Assembly8.JPG)
+![alt text](Images/Assembly6.jpg)
+![alt text](Images/Assembly7.jpg)
+![alt text](Images/Assembly8.jpg)
 
 ### Week 10
 This week was spent mostly designing the base of the enclosure. It is the most important part where it maintains the structure of the connected devices. The base was designed in AutoDesk Inventor with imported CADs from the official raspberryPi website and with an exported PDF of the overlays of the designed PCB from Fritzing.
