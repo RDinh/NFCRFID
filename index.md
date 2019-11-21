@@ -1,7 +1,7 @@
 ### Week 11
 The enclsoure was designed in Inventor and 3D printed in parts at sevreral libraries that provided 2hr/day printing. Each piece was designed to meet the allowed time frame. 6 pieces were printed in total and were assembled together with a glue gun that was later purchased. Modifications were done to the bottom of the case as there was a design change. All the studs were cut off with a blade.
 
-Here is the link to the Design Files:
+[Here is the link to the Design Files](https://github.com/RDinh/NFCRFID/tree/master/Documentation/Cases)
 
 Assembly of all Components are Shown Below.
 
