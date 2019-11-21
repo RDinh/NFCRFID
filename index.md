@@ -1,8 +1,9 @@
 ### Week 11
 The enclsoure was designed in Inventor and 3D printed in parts at sevreral libraries that provided 2hr/day printing. Each piece was designed to meet the allowed time frame. 6 pieces were printed in total and were assembled together with a glue gun that was later purchased.
 
-To attached the device to the case several stand-offs, screws and nuts were used. Here is the list 
+To attached the device to the case several stand-offs, screws and nuts were used. Here is the list and images
 with specifics:
+
 ### Week 10
 This week was spent mostly designing the base of the enclosure. It is the most important part where it maintains the structure of the connected devices. The base was designed in AutoDesk Inventor with imported CADs from the official raspberryPi website and with an exported PDF of the overlays of the designed PCB from Fritzing.
 
