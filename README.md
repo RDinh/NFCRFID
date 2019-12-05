@@ -2,23 +2,29 @@
 
 ##### Table of Contents  
 
-  * [Paste Your Document In Here](#paste-your-document-in-here)
-  * [And a table of contents](#and-a-table-of-contents)
-  * [On the right](#on-the-right)
-
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-
-
-
-
-# Paste Your Document In Here
-
-## And a table of contents
-
-will be generated
-
-## On the right
-
-side of this page.
+- [Introduction using a system diagram](#introduction-using-a-system-diagram)
+- [Bill of Materials/Budget](#bill-of-materials-budget)
+- [Time Commitment](#time-commitment)
+- [Mechanical Assembly](#mechanical-assembly)
+- [PCB / Soldering](#pcb---soldering)
+- [Power Up](#power-up)
+- [Unit Testing](#unit-testing)
+- [Production Testing](#production-testing)
 
 
+
+## Introduction
+
+## Bill of Materials/Budget
+
+## Time Commitment
+
+## Mechanical Assembly
+
+## PCB / Soldering
+
+## Power Up
+
+## Unit Testing
+
+## Production Testing
