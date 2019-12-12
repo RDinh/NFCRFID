@@ -6,7 +6,7 @@
 - [Bill of Materials/Budget](#bill-of-materials-budget)
 - [Time Commitment](#time-commitment)
 - [Raspberry Pi Headless Setup](#Raspberry-PI-Headless-Setup)
-- [NFC Controller Board(PN532) Soldering and Setup](#NFC-Controller-Board-(PN532)-Soldering-and-Setup)
+- [NFC Controller Board(PN532) Soldering and Setup](#NFC-Controller-Board-(PN532)-Soldering and-Setup)
 - [PCB / Soldering](#pcb---soldering)
 - [Power Up](#power-up)
 - [Unit Testing](#unit-testing)
