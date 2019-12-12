@@ -67,6 +67,7 @@ device.connstring = “pn532_i2c:/dev/i2c-1”
 <br>
 Here is an alternative Setup Method(With HDMI) if you cannot get the headless setup to work: https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up
 
+<br>
 *Important Note: When waiting for something to install, work on the other portions of the project to cut down the time to complete it.*
 
 
