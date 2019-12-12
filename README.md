@@ -22,6 +22,7 @@ With the introduction of NFC, contactless payment and data transfer has become m
 
 The modular project itself deals with 4 major components: a Raspberry Pi 2 or 3, a PCB, a NFC Controller (Adafruit PN532) and a 3D-printed enclosure. The Raspberry Pi acts as a computer so that data can be entered to or retrieved from the PN532 when an NFC device/card has been detected. To connect the 2 devices together, a PCB needs to be printed with other soldered on components. In terms of communication between the two devices, it uses a I2C protocol that has a serial data line and clock line to manage data transmission. Enclosing the entire project is a self-design 3D printed case. The case allows easy access for users to troubleshoot any problems encountered along the way of this project.
 
+![alt text](Images/SystemDiagram.JPG)
 
 
 ## Bill of Materials/Budget
@@ -137,8 +138,11 @@ Double check the connections before powering on the PI.
 
 First run `i2cdetect -y 1` to see if the i2c address of the device is picked up.
 
+![alt text](Images/i2cdetect.JPG)
+
 Run `nfc-poll` and tap the card that was provided with the Adafruit PN532. An output should be displayed on the terminal.
 
+![alt text](Images/nfcpoll.JPG)
 
 
 ## PCB Soldering
@@ -152,6 +156,10 @@ Feed the (2x3)6 pin header through the bottom. Solder the 6 pin with the pins st
 Feed the 9 pin header through the top.Solder the 9 pin header with the pins sticking down and female side sticking up so the NFC Controller can connect to it. 
 
 The Final PCB should look like the following.
+
+![alt text](Images/SolderedPCB.jpg)
+
+![alt text](Images/SolderedPCB2.jpg)
 
 ## Unit Testing: PCB
 
