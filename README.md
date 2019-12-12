@@ -6,7 +6,7 @@
 - [Bill of Materials/Budget](#bill-of-materials-budget)
 - [Time Commitment](#time-commitment)
 - [Raspberry Pi Headless Setup](#Raspberry-PI-Headless-Setup)
-- [NFC Controller Board(PN532) Soldering and Setup](#NFC-Controller-Board-(PN532)-Soldering and-Setup)
+- [PN532 NFC Controller Board Soldering and Setup](#PN532-NFC-Controller-Board-Soldering-and-Setup)
 - [PCB / Soldering](#pcb---soldering)
 - [Power Up](#power-up)
 - [Unit Testing](#unit-testing)
@@ -74,7 +74,7 @@ Here is an alternative Setup Method(With HDMI) if the headless setup does not wo
 <br></br>
 
 *Important Note: When waiting for something to install, work on the other portions of the project to cut down the time to complete it.*
-## NFC Controller Board (PN532) Soldering and Setup
+## PN532 NFC Controller Board Soldering and Setup
 
 ## PCB / Soldering
 
