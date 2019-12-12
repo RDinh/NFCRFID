@@ -76,6 +76,15 @@ Here is an alternative Setup Method(With HDMI) if the headless setup does not wo
 *Important Note: When waiting for something to install, work on the other portions of the project to cut down the time to complete it.*
 ## PN532 NFC Controller Board Soldering and Setup
 
+With a pair of snips create a 9-pin header and 2 3-pin headers with the provided strip of header pins. Double-check by counting the pins before cutting! The 9-Pin is for the 3V, SDA, SCL and GND. Even though only 4-pins will be utilized, it keeps the device in place when it is plugged into the female header on the PCB. The 2 other 3-Pin headers will be used for SE0 and SE1 which will help the NFC Controller decide what protocol to use since the board can work in I2C(used for this project),UART and SPI.
+
+Feed the short side of the 9-pin header through the back of the NFC Controller. With the board resting on the long side of the pins, solder the short side to the front of the board.
+
+Feed the short side of the 3-pin header through the front of the NFC Controller where the SE0 holes are labeled. With the board resting on the long side of the 3-pin header, solder the short side to the back of the board. Repeat this step for SE1.  
+
+When everything has cooled down, place one jumper/shunt on SE0 on the ON position and one jumper on SE1 on the off position. This will make the NFC Controller use the I2C protocol.
+
+
 ## Unit Testing: NFC Controller Power Up
 This is an important part of the project. Problems with setting up the NFC controller should be handled here before the full assembly.
 
