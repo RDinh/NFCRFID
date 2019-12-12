@@ -9,7 +9,7 @@
 - [PN532 NFC Controller Board Soldering and Setup](#PN532-NFC-Controller-Board-Soldering-and-Setup)
 - [Unit Testing NFC Controller Power Up](#Unit-Testing-NFC-Controller-Power-Up)
 - [PCB Soldering](#pcb-soldering)
-- [Unit Testing:PCB](#unit-testing-pcb)
+- [Unit Testing:PCB](#Unit-Testing-Pcb)
 - [Power Up](#power-up)
 - [Unit Testing](#unit-testing)
 - [Production Testing](#production-testing)
