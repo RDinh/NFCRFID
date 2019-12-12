@@ -7,6 +7,7 @@
 - [Time Commitment](#time-commitment)
 - [Raspberry Pi Headless Setup](#Raspberry-PI-Headless-Setup)
 - [PN532 NFC Controller Board Soldering and Setup](#PN532-NFC-Controller-Board-Soldering-and-Setup)
+- [Unit Testing: NFC Controller Power Up](#Unit-Testing:-NFC-Controller-Power-Up)
 - [PCB Soldering](#pcb-soldering)
 - [Power Up](#power-up)
 - [Unit Testing](#unit-testing)
@@ -189,7 +190,9 @@ Mount the PN532 NFC Controller onto the PCB using two M3*6 screws at the section
 Attach the lid with two M2.5 nuts nearest to the USB ports and two M3 nuts opposite to the other side.  Make sure these are finger tight and not over-torqued. They will be hard to remove if any troubleshooting has to be done with the hardware later on.
 
 
-## Unit Testing: 
+## Unit Testing: Testing Enclosed Device
+
+Follow the terminal commands listed in [Unit Testing](#unit-testing)
 
 
 
