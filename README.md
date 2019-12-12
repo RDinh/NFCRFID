@@ -96,11 +96,14 @@ Run `nfc-poll` and tap the card that was provided with the Adafruit PN532. An ou
 ## PCB Soldering
 
 Using a 22AWG wire, strip around 1cm of wire and feed it through the via and solder both sides of the via pads to the wire. This will connect the bottom layer to top layer lines to their correlating pins. Snip off any excess wire and repeat this step for all (Vias on the PCB).
-Create a 9 pin female header by cutting off one of the pins from the 10 pin females headers refer this video for assistance. https://www.youtube.com/watch?v=qDG3VFSMSPQ
-Feed the 6 pin header through the bottom.
-Solder the 6 pin with the pins sticking up and female side sticking down so that it can conbect on to the pins of the RPI.
-Feed the 9 pin header through the top.
-Solder the 9 pin header with the pins sticking down and female side sticking up so the NFC Controller can connect to 
+
+Create a 9 pin female header by cutting off one of the pins from the 10 pin females headers refer this [video](https://www.youtube.com/watch?v=qDG3VFSMSPQ) for assistance. 
+
+Feed the (2x3)6 pin header through the bottom. Solder the 6 pin with the pins sticking up and female side sticking down so that it can connect onto the pins of the RPI.
+
+Feed the 9 pin header through the top.Solder the 9 pin header with the pins sticking down and female side sticking up so the NFC Controller can connect to it. 
+
+The Final PCB should look like the following.
 
 
 ## 3D Printing
@@ -110,19 +113,6 @@ You can print the bottom portion and top with these files. Print time will vary 
 The case can either printed into 6 parts (1-2 Hrs per part.) Time may very depending on the printer setup.
 Here is the print setting in cura.
 Gluing is required for the 6 pieces. To determine which part goes where place the rpi ontop of the stand offs and place pieces in their appropriate areas. To check correct in the piece is in the correct spot refer to the stl files.
-
-## Mechanical Assembly
-
-
-
-
-
-## Power Up
-
-
-
-
-
 
 
 ## Unit Testing:PCB
