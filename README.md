@@ -51,7 +51,7 @@ In terms of assembly, setup and troubleshooting the project should take approxim
 
 <b>*Important Steps to Follow After Inital Setup:*</b>
 
-Additional Step while in `sudo rasp-config` after enabling VNC viewer, enable the I2C interface as well. This will allow the raspberryPi to communicate with the NFC Controller. Exit and then return to the main terminal.
+Additional Step while in `sudo rasp-config` after enabling VNC viewer, enable the I2C interface as well. This will allow the Raspberry Pi to communicate with the NFC Controller. Exit and then return to the main terminal.
 
 Fetch the list of updates for RPI using the command: `sudo apt-get update` and then `sudo apt-get upgrade`. Enter `Y` when prompted to do to begin the install of the updates for the Raspberry Pi. The time to complete the download and install will vary depending on the Internet download speeds.
 
@@ -78,20 +78,15 @@ Here is an alternative Setup Method(With HDMI) if the headless setup does not wo
 
 ## PCB / Soldering
 
+## 3D Printing
 
+You can print the bottom portion and top with these files. Print time will vary depending on the type of printer and printer setup.
+
+The case can either printed into 6 parts (1-2 Hrs per part.) Time may very depending on the printer setup.
+Here is the print setting in cura.
+Gluing is required for the 6 pieces. To determine which part goes where place the rpi ontop of the stand offs and place pieces in their appropriate areas. To check correct in the piece is in the correct spot refer to the stl files.
 
 ## Mechanical Assembly
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -107,11 +102,30 @@ Here is an alternative Setup Method(With HDMI) if the headless setup does not wo
 
 ## Unit Testing:PCB
 
-Referring back to the PCB diagram, check for shorts, and check the continuity between the RPI Header and NFC Controller header to ensure each pin has their right connection. Using the multimeter and switching it to the continuity mode, put one probe on the 3V pin of the 6 pin stackable header and the 3v pin of the 9 pin header.
-
-If there is a beep coming from the multimeter then there is a connection, if there isn’t a beep there is something wrong with the soldering or the PCB. Repeat this step ( for SDA,SCL and GND). Also test the pin with other pins to see if there is any connection to non correlating pins, if there are, there is an issue with the PCB or soldering. 
+Referring back to the PCB diagram, check for shorts, and check the continuity between the RPI Header and NFC Controller header to ensure each pin has their right connection. Using the multimeter and switching it to the continuity mode, put one probe on the 3V pin of the 6 pin stackable header and the 3v pin of the 9 pin header.If there is a beep coming from the multimeter then there is a connection, if there isn’t a beep there is something wrong with the soldering or the PCB. Repeat this step ( for SDA,SCL and GND). Also test the pin with other pins to see if there is any connection to non correlating pins, if there are, there is an issue with the PCB or soldering. 
 
 
+
+## Final Assembly
+
+Please Follow these instructions carefully to prevent any damage to NFC Controller and the raspberryPi.
+
+Place the raspberryPi on top of the standoffs of the RPI case with the USB Ports facing out of the case.
+Place a M2.5*12+6 nylon Stand-off on top of the RPI Mounting Holes(screws facing up). From the bottom of the case, thread the a M2.5*6 Screws through the holes of the RPI and into the standoffs. Repeat this step 3 more times for the remaining holes of the RPI. This step will allow for the RPI to be attached to the case while creating standoffs for the PCB to sit on.
+
+
+Place a 2 M3*20+6  Nylon Stand-offs on top of the Bottom Case(Screw Side Up) opposite to the USB ports. Thread M3*6 them through the bottom of the case and into the standoffs. This will allow support for the bottom portion NFC Controller.
+
+
+On the PCB, place two M3*10+6 standoffs at the ends of the header. The screw side should be facing down and fastened to the PCB with two M3 nuts.
+
+Carefully place the PCB onto the standoffs that are on top of the RPI. Fasten the section nearest the USB ports with 2 of the stacked pairs of M2.5*12+6. Fasten the remaining two standoffs with M2.5 nuts.
+
+
+Mount the PN532 NFC Controller onto the PCB using two M3*6 screws at the section nearest the USB Ports. Use two M3*12+6 standoffs (screw side up) for the section opposite the USB ports.
+
+
+Attach the lid with two M2.5 nuts nearest to the USB ports and two M3 nuts opposite to the other side.  Make sure these are finger tight and not over-torqued. They will be hard to remove if any troubleshooting has to be done with the hardware later on.
 
 
 
