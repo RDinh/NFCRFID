@@ -192,11 +192,11 @@ Attach the lid with two M2.5 nuts nearest to the USB ports and two M3 nuts oppos
 
 ## Unit Testing: Testing Enclosed Device
 
-Follow the terminal commands listed in [Unit Testing](#unit-testing)
-
+Follow the terminal commands listed in [Unit Testing NFC Controller Power Up](#Unit-Testing-NFC-Controller-Power-Up). This test will demostrate if the device is still operational after the assembly with the 3D printed enclosure.
 
 
 ## Production Testing
+For a larger production of these devices, a cheaper PN532 NFC reader can be used 
 
 
 
