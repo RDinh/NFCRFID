@@ -179,7 +179,7 @@ You can print the bottom portion and top with [these files](). Print time will v
 
 If the casse is being printed with a public access 3D-printer with a time limit, use [the following 6 files](https://github.com/RDinh/NFCRFID/tree/master/Documentation/Cases/6pc) (1-2 hrs per part) Time may very depending on the printer setup.
 
-Here are [the print settings in Cura](Documentation/CuraSettings.curaprofile).
+Here are [the print settings in Cura](Documentation/CuraSettings.curaprofile). Download the file and import it into Cura under Profile>Manage Settings >Import
 
 
 Gluing is required for the 6 pieces. To determine which part goes where place the Raspberry Pi ontop of the standoffs and place pieces in their appropriate areas. To check correct in the piece is in the correct spot refer to the stl files.
