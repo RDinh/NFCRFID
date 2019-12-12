@@ -38,7 +38,7 @@ In terms of assembly, setup and troubleshooting the project should take approxim
 
 
 ## Raspberry PI Headless Setup
-Use the following guide to setup your raspberry PI using the Headless Setup Method(No Display Required)
+[Use the following guide to setup your raspberry PI using the Headless Setup Method(No Display Required](https://www.tomshardware.com/reviews/raspberry-pi-headless-setup-how-to,6028.html)
 
 <b>Equipment Required:</b> Computer, Ethernet Cable, RPI 2 or 3, USB-Ethernet (if required)<br>
 <b>Required Downloads:</b> Etcher, Bonjour, Putty 
