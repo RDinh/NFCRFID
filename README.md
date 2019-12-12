@@ -192,18 +192,18 @@ Gluing is required for the 6 pieces. To determine which part goes where place th
 Please Follow these instructions carefully to prevent any damage to NFC Controller and the Raspberry Pi.
 
 Place the Raspberry Pi on top of the standoffs of the RPI case with the USB Ports facing out of the case.
-Place a M2.5*12+6 nylon Stand-off on top of the RPI Mounting Holes(screws facing up). From the bottom of the case, thread the a M2.5*6 Screws through the holes of the RPI and into the standoffs. Repeat this step 3 more times for the remaining holes of the RPI. This step will allow for the RPI to be attached to the case while creating standoffs for the PCB to sit on.
+Place a M2.5\*12+6 nylon Stand-off on top of the RPI Mounting Holes(screws facing up). From the bottom of the case, thread the a M2.5\*6 Screws through the holes of the RPI and into the standoffs. Repeat this step 3 more times for the remaining holes of the RPI. This step will allow for the RPI to be attached to the case while creating standoffs for the PCB to sit on.
 
-Place a 2 M3*20+6  Nylon Stand-offs on top of the Bottom Case(Screw Side Up) opposite to the USB ports. Thread M3*6 them through the bottom of the case and into the standoffs. This will allow support for the bottom portion NFC Controller.
+Place a 2 M3\*20+6  Nylon Stand-offs on top of the Bottom Case(Screw Side Up) opposite to the USB ports. Thread M3\*6 them through the bottom of the case and into the standoffs. This will allow support for the bottom portion NFC Controller.
 
 ![alt text](Images/Assembly1.jpg)
 
 
-On the PCB, place two M3*10+6 standoffs at the ends of the header. The screw side should be facing down and fastened to the PCB with two M3 nuts.
+On the PCB, place two M3\*10+6 standoffs at the ends of the header. The screw side should be facing down and fastened to the PCB with two M3 nuts.
 
 ![alt text](Images/SolderedPCB2.jpg)
 
-Carefully place the PCB onto the standoffs that are on top of the RPI. Fasten the section nearest the USB ports with 2 of the stacked pairs of M2.5*12+6. Fasten the remaining two standoffs with M2.5 nuts.
+Carefully place the PCB onto the standoffs that are on top of the RPI. Fasten the section nearest the USB ports with 2 of the stacked pairs of M2.5\*12+6. Fasten the remaining two standoffs with M2.5 nuts.
 
 ![alt text](Images/Assembly2.jpg)
 
