@@ -9,6 +9,7 @@
 - [PN532 NFC Controller Board Soldering and Setup](#PN532-NFC-Controller-Board-Soldering-and-Setup)
 - [Unit Testing NFC Controller Power Up](#Unit-Testing-NFC-Controller-Power-Up)
 - [PCB Soldering](#pcb-soldering)
+- [Unit Testing:PCB](#unit-testing-pcb)
 - [Power Up](#power-up)
 - [Unit Testing](#unit-testing)
 - [Production Testing](#production-testing)
@@ -152,6 +153,10 @@ Feed the 9 pin header through the top.Solder the 9 pin header with the pins stic
 
 The Final PCB should look like the following.
 
+## Unit Testing:PCB
+
+Referring back to the PCB diagram, check for shorts, and check the continuity between the RPI Header and NFC Controller header to ensure each pin has their right connection. Using the multimeter and switching it to the continuity mode, put one probe on the 3V pin of the 6 pin stackable header and the 3v pin of the 9 pin header.If there is a beep coming from the multimeter then there is a connection, if there isn’t a beep there is something wrong with the soldering or the PCB. Repeat this step ( for SDA,SCL and GND). Also test the pin with other pins to see if there is any connection to non correlating pins, if there are, there is an issue with the PCB or soldering.
+
 
 ## 3D Printing
 
@@ -162,9 +167,7 @@ Here is the print setting in cura.
 Gluing is required for the 6 pieces. To determine which part goes where place the rpi ontop of the stand offs and place pieces in their appropriate areas. To check correct in the piece is in the correct spot refer to the stl files.
 
 
-## Unit Testing:PCB
-
-Referring back to the PCB diagram, check for shorts, and check the continuity between the RPI Header and NFC Controller header to ensure each pin has their right connection. Using the multimeter and switching it to the continuity mode, put one probe on the 3V pin of the 6 pin stackable header and the 3v pin of the 9 pin header.If there is a beep coming from the multimeter then there is a connection, if there isn’t a beep there is something wrong with the soldering or the PCB. Repeat this step ( for SDA,SCL and GND). Also test the pin with other pins to see if there is any connection to non correlating pins, if there are, there is an issue with the PCB or soldering. 
+ 
 
 
 
