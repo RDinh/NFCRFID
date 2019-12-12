@@ -7,7 +7,7 @@
 - [Time Commitment](#time-commitment)
 - [Raspberry Pi Headless Setup](#Raspberry-PI-Headless-Setup)
 - [PN532 NFC Controller Board Soldering and Setup](#PN532-NFC-Controller-Board-Soldering-and-Setup)
-- [PCB / Soldering](#pcb---soldering)
+- [PCB Soldering](#pcb-soldering)
 - [Power Up](#power-up)
 - [Unit Testing](#unit-testing)
 - [Production Testing](#production-testing)
@@ -77,7 +77,7 @@ Here is an alternative Setup Method(With HDMI) if the headless setup does not wo
 ## PN532 NFC Controller Board Soldering and Setup
 
 ## Unit Testing: NFC Controller Power Up
-This is an important part of the project. Problems should with setting up the NFC controller should be handled here before the full assembly.
+This is an important part of the project. Problems with setting up the NFC controller should be handled here before the full assembly.
 
 Use the following image to wire the pi.
 
@@ -93,7 +93,15 @@ Run `nfc-poll` and tap the card that was provided with the Adafruit PN532. An ou
 
 
 
-## PCB / Soldering
+## PCB Soldering
+
+Using a 22AWG wire, strip around 1cm of wire and feed it through the via and solder both sides of the via pads to the wire. This will connect the bottom layer to top layer lines to their correlating pins. Snip off any excess wire and repeat this step for all (Vias on the PCB).
+Create a 9 pin female header by cutting off one of the pins from the 10 pin females headers refer this video for assistance. https://www.youtube.com/watch?v=qDG3VFSMSPQ
+Feed the 6 pin header through the bottom.
+Solder the 6 pin with the pins sticking up and female side sticking down so that it can conbect on to the pins of the RPI.
+Feed the 9 pin header through the top.
+Solder the 9 pin header with the pins sticking down and female side sticking up so the NFC Controller can connect to 
+
 
 ## 3D Printing
 
