@@ -12,7 +12,7 @@
 - [Unit Testing:PCB](#Unit-Testing-Pcb)
 - [3D Printing](#3D-Printing)
 - [Unit Testing : Testing Enclosed Device](#Unit-Testing-Testing-Enclosed-Device)
-- [Final Assembly](#Final Assembly)
+- [Final Assembly](#Final-Assembly)
 - [Production Testing](#production-testing)
 
 
