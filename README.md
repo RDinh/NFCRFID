@@ -5,6 +5,7 @@
 - [Introduction](#introduction-using-a-system-diagram)
 - [Bill of Materials/Budget](#bill-of-materials-budget)
 - [Time Commitment](#time-commitment)
+- [Raspberry Pi Headless Setup](#Raspberry-PI-Headless-Setup)
 - [Mechanical Assembly](#mechanical-assembly)
 - [PCB / Soldering](#pcb---soldering)
 - [Power Up](#power-up)
