@@ -182,7 +182,9 @@ If the casse is being printed with a public access 3D-printer with a time limit,
 Here are [the print settings in Cura](Documentation/CuraSettings.curaprofile). Download the file and import it into Cura under Profile>Manage Settings >Import
 
 
-Gluing is required for the 6 pieces. To determine which part goes where place the Raspberry Pi ontop of the standoffs and place pieces in their appropriate areas. To check correct in the piece is in the correct spot refer to the stl files.
+Gluing is required for the 6 pieces. To determine which part goes where place the Raspberry Pi ontop of the standoffs and place pieces in their appropriate areas. To check correct in the piece is in the correct spot refer to the stl files. 
+
+*DO NOT GLUE THE TOP PIECES AS THEY ARE INTENDED TO BE REMOVEABLE FOR TROUBLESHOOTING.*
 
 
  ![alt text](Images/OpenViewSTL.JPG)
