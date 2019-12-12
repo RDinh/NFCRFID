@@ -175,9 +175,9 @@ Referring back to the PCB diagram, check for shorts, and check the continuity be
 
 ## 3D Printing
 
-You can print the bottom portion and top with [these files](). Print time will vary depending on the type of printer and printer setup.
+The bottom base and top portions of the enclosure can be printed with [these 2 files](). Print time will vary depending on the type of printer and printer setup.
 
-If the casse is being printed with a public access 3D-printer with a time limit, use [the following 6 files](https://github.com/RDinh/NFCRFID/tree/master/Documentation/Cases/6pc) (1-2 hrs per part) Time may very depending on the printer setup.
+If the casse is being printed with a publicly accessed 3D-printer with a time limit, use [the following 6 files](https://github.com/RDinh/NFCRFID/tree/master/Documentation/Cases/6pc) (1-2 hrs per part). Time may very depending on the printer setup.
 
 Here are [the print settings in Cura](Documentation/CuraSettings.curaprofile). Download the file and import it into Cura under Profile>Manage Settings >Import
 
@@ -195,12 +195,14 @@ Gluing is required for the 6 pieces. To determine which part goes where place th
 
 Please Follow these instructions carefully to prevent any damage to NFC Controller and the Raspberry Pi.
 
-Place the Raspberry Pi on top of the standoffs of the RPI case with the USB Ports facing out of the case.
+Place the Raspberry Pi on top of the standoffs of the 3D printed bottom base with the USB Ports facing out of the case.
 Place a M2.5\*12+6 nylon Stand-off on top of the RPI Mounting Holes(screws facing up). From the bottom of the case, thread the a M2.5\*6 Screws through the holes of the RPI and into the standoffs. Repeat this step 3 more times for the remaining holes of the RPI. This step will allow for the RPI to be attached to the case while creating standoffs for the PCB to sit on.
 
 Place a 2 M3\*20+6  Nylon Stand-offs on top of the Bottom Case(Screw Side Up) opposite to the USB ports. Thread M3\*6 them through the bottom of the case and into the standoffs. This will allow support for the bottom portion NFC Controller.
 
 ![alt text](Images/Assembly1.jpg)
+
+![alt text](Images/Assembly8.jpg)
 
 
 On the PCB, place two M3\*10+6 standoffs at the ends of the header. The screw side should be facing down and fastened to the PCB with two M3 nuts.
