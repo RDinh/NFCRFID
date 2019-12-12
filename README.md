@@ -55,11 +55,14 @@ Additional Step while in `sudo rasp-config` after enabling VNC viewer, enable th
 
 Fetch the list of updates for RPI using the command: `sudo apt-get update` and then `sudo apt-get upgrade`. Enter `Y` when prompted to do to begin the install of the updates for the Raspberry Pi. The time to complete the download and install will vary depending on the Internet download speeds.
 
-When the downloads are completed, down the libNFC repository by running the command:
+When the downloads are completed, down the libNFC repository by running the command:<br>
+
 `apt-get install libnfc-bin libnfc-examples libnfc-pn53x-examples`
-Configure the configuration file by running the following command: 
+
+Configure the configuration file by running the following command: <br>
 `sudo nano /etc/nfc/libnfc.conf`
-Add the following to the bottom of the file
+
+Add the following to the bottom of the file<br>
 ```
 device.name = “Pn532”
 device.connstring = “pn532_i2c:/dev/i2c-1”
@@ -68,6 +71,7 @@ device.connstring = “pn532_i2c:/dev/i2c-1”
 Here is an alternative Setup Method(With HDMI) if you cannot get the headless setup to work: https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up
 
 <br>
+
 *Important Note: When waiting for something to install, work on the other portions of the project to cut down the time to complete it.*
 
 
