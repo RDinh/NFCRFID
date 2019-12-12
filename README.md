@@ -150,7 +150,7 @@ Run `nfc-poll` and tap the card that was provided with the Adafruit PN532. An ou
 
 ## PCB Soldering
 
-![alt text](Images/PN532_PCB.JPG)
+![alt text](Images/PN532_PCB.jpg)
 
 Using a 22AWG wire, strip around 1cm of wire and feed it through the via and solder both sides of the via pads to the wire. This will connect the bottom layer to top layer lines to their correlating pins. Snip off any excess wire and repeat this step for all (Vias on the PCB).
 
@@ -174,14 +174,16 @@ Referring back to the PCB diagram, check for shorts, and check the continuity be
 
 ## 3D Printing
 
-You can print the bottom portion and top with these files. Print time will vary depending on the type of printer and printer setup.
+You can print the bottom portion and top with [these files](). Print time will vary depending on the type of printer and printer setup.
 
-The case can either printed into 6 parts (1-2 hrs per part) Time may very depending on the printer setup.
+The case can also be printed into 6 parts (1-2 hrs per part) Time may very depending on the printer setup.
+
 Here is the print setting in cura.
+
 Gluing is required for the 6 pieces. To determine which part goes where place the Raspberry Pi ontop of the standoffs and place pieces in their appropriate areas. To check correct in the piece is in the correct spot refer to the stl files.
 
 
- 
+ ![alt text](Images/OpenViewSTL.JPG)
 
 
 
