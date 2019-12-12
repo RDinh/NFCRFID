@@ -38,7 +38,7 @@ In terms of assembly, setup and troubleshooting the project should take approxim
 
 
 ## Raspberry PI Headless Setup
-[Use the following guide to setup your raspberry PI using the Headless Setup Method(No Display Required](https://www.tomshardware.com/reviews/raspberry-pi-headless-setup-how-to,6028.html)
+[Use the following guide to setup your raspberry PI using the Headless Setup Method(No Display Required)](https://www.tomshardware.com/reviews/raspberry-pi-headless-setup-how-to,6028.html)
 
 <b>Equipment Required:</b> Computer, Ethernet Cable, RPI 2 or 3, USB-Ethernet (if required)<br>
 <b>Required Downloads:</b> Etcher, Bonjour, Putty 
@@ -105,9 +105,9 @@ Here is an alternative Setup Method(With HDMI) if the headless setup does not wo
 
 
 
-## Unit Testing
+## Unit Testing:PCB
 
-
+Referring back to the PCB diagram, check for shorts, and check the continuity between the RPI Header and NFC Controller header to ensure each pin has their right connection. Using the multimeter and switching it to the continuity mode, put one probe on the 3V pin of the 6 pin stackable header and the 3v pin of the 9 pin header. If there is a beep coming from the multimeter then there is a connection, if there isn’t a beep there is something wrong with the Soldering or the PCB. Repeat this step ( for SDA,SCL and GND). Also test the pin with other pins to see if there is any connection to non correlating pins, if there are, there is an issue with the PCB or Soldering. 
 
 
 
