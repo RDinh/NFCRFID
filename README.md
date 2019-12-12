@@ -53,7 +53,7 @@ In terms of assembly, setup and troubleshooting the project should take approxim
 
 Additional Step while in `sudo rasp-config` after enabling VNC viewer, enable the I2C interface as well. This will allow the Raspberry Pi to communicate with the NFC Controller. Exit and then return to the main terminal.
 
-Fetch the list of updates for RPI using the command: `sudo apt-get update` and then `sudo apt-get upgrade`. Enter `Y` when prompted to do to begin the install of the updates for the Raspberry Pi. The time to complete the download and install will vary depending on the Internet download speeds.
+Fetch the list of updates for RPI using the command: `sudo apt-get update` and then `sudo apt-get upgrade`. Enter `Y` when prompted to begin the install of the updates for the Raspberry Pi. The time to complete the download and install will vary depending on the Internet download speeds.
 
 When the downloads are completed, download the libNFC repository by running the command:<br>
 
@@ -75,6 +75,20 @@ Here is an alternative Setup Method(With HDMI) if the headless setup does not wo
 
 *Important Note: When waiting for something to install, work on the other portions of the project to cut down the time to complete it.*
 ## PN532 NFC Controller Board Soldering and Setup
+
+## Unit Testing: NFC Controller Power Up
+Use the following image to wire the pi.
+Red – 3.3V
+Orange - SDA
+Green – SCL
+Black – Ground
+
+Double Check the connections before powering on the PI
+First run `i2cdetect -y 1` to see if the i2c address is picked up
+Run `nfc-scan devic`e to see if the PN532 is picked up
+Run `nfc-poll` and tap the card that was provided with the Adafruit PN532. An output should be displayed on the terminal.
+
+
 
 ## PCB / Soldering
 
