@@ -7,7 +7,7 @@
 - [Time Commitment](#time-commitment)
 - [Raspberry Pi Headless Setup](#Raspberry-PI-Headless-Setup)
 - [PN532 NFC Controller Board Soldering and Setup](#PN532-NFC-Controller-Board-Soldering-and-Setup)
-- [Unit Testing: NFC Controller Power Up](#Unit-Testing:-NFC-Controller-Power-Up)
+- [Unit Testing NFC Controller Power Up](#Unit-Testing:-NFC-Controller-Power-Up)
 - [PCB Soldering](#pcb-soldering)
 - [Power Up](#power-up)
 - [Unit Testing](#unit-testing)
