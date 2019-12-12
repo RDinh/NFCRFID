@@ -7,7 +7,9 @@
 - [Time Commitment](#time-commitment)
 - [Raspberry Pi Headless Setup](#Raspberry-PI-Headless-Setup)
 - [PN532 NFC Controller Board Soldering and Setup](#PN532-NFC-Controller-Board-Soldering-and-Setup)
+- [Unit Testing NFC Controller Power Up](#Unit-Testing-NFC-Controller-Power-Up)
 - [PCB Soldering](#pcb-soldering)
+- [Unit Testing:PCB](#Unit-Testing-Pcb)
 - [Power Up](#power-up)
 - [Unit Testing](#unit-testing)
 - [Production Testing](#production-testing)
@@ -24,9 +26,48 @@ The modular project itself deals with 4 major components: a Raspberry Pi 2 or 3,
 
 ## Bill of Materials/Budget
 
+Here is a list of the main components parts to order for the project. The total cost will depend if the parts or tools are already owned or can be loaned. Also utlizing a service such as PCB printing and 3D printing will affect the pricing. Sometimes these services are provided at a local library or makerspace on school campuses.
 
 
+<table style="width:100%">
+  <tr>
+    <th>Part Name</th>
+    <th>Quantity</th>
+    <th>Price ($)</th>
+    <th>Source</th>
+  </tr>
+  <tr>
+    <td>PN532 NFC/RFID controller breakout board - v1.6</td>
+    <td>1</td>
+    <td>71.42</td>
+    <td>https://www.amazon.ca/gp/product/B00KKUECAO/</td>
+  </tr>
+  <tr>
+    <td>Raspberry Pi 3 B+</td>
+    <td>1</td>
+    <td>114.99</td>
+    <td>https://www.amazon.ca/CanaKit-Raspberry-Starter-Premium-Black/dp/B07BCC8PK7</td>
+  </tr>
+  <tr>
+    <td>Nylon Standoffs Kit</td>
+    <td>1</td>
+    <td>13.99</td>
+    <td>https://www.amazon.ca/gp/product/B06Y5PX9SV</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><b>Total<b></td>
+    <td>200.4</td>
+    <td></td>
+  </tr>
+</table>
 
+**ALL PRICES LISTED ARE SUBJECT TO CHANGE.TAXES AND SHIPPING ARE NOT INCLUDED.**
+
+
+To get a quote for the printed PCB visit [here](https://www.seeedstudio.com/fusion_pcb.html).
+
+To get a quote for the 3D-printed enclosure visit [here](https://shop3d.ca/pages/upload-your-file-to-be-printed).
 
 
 ## Time Commitment
@@ -51,7 +92,7 @@ In terms of assembly, setup and troubleshooting the project should take approxim
 
 <b>*Important Steps to Follow After Inital Setup:*</b>
 
-Additional Step while in `sudo rasp-config` after enabling VNC viewer, enable the I2C interface as well. This will allow the Raspberry Pi to communicate with the NFC Controller. Exit and then return to the main terminal.
+While in `sudo rasp-config` after enabling VNC viewer, enable the I2C interface as well. This will allow the Raspberry Pi to communicate with the NFC Controller. Exit and then return to the main terminal.
 
 Fetch the list of updates for RPI using the command: `sudo apt-get update` and then `sudo apt-get upgrade`. Enter `Y` when prompted to begin the install of the updates for the Raspberry Pi. The time to complete the download and install will vary depending on the Internet download speeds.
 
@@ -96,8 +137,6 @@ Double check the connections before powering on the PI.
 
 First run `i2cdetect -y 1` to see if the i2c address of the device is picked up.
 
-Run `nfc-scan device` to see if the PN532 is picked up with the libNFC library.
-
 Run `nfc-poll` and tap the card that was provided with the Adafruit PN532. An output should be displayed on the terminal.
 
 
@@ -114,6 +153,10 @@ Feed the 9 pin header through the top.Solder the 9 pin header with the pins stic
 
 The Final PCB should look like the following.
 
+## Unit Testing: PCB
+
+Referring back to the PCB diagram, check for shorts, and check the continuity between the RPI Header and NFC Controller header to ensure each pin has their right connection. Using the multimeter and switching it to the continuity mode, put one probe on the 3V pin of the 6 pin stackable header and the 3v pin of the 9 pin header.If there is a beep coming from the multimeter then there is a connection, if there isn’t a beep there is something wrong with the soldering or the PCB. Repeat this step ( for SDA,SCL and GND). Also test the pin with other pins to see if there is any connection to non correlating pins, if there are, there is an issue with the PCB or soldering.
+
 
 ## 3D Printing
 
@@ -124,9 +167,7 @@ Here is the print setting in cura.
 Gluing is required for the 6 pieces. To determine which part goes where place the rpi ontop of the stand offs and place pieces in their appropriate areas. To check correct in the piece is in the correct spot refer to the stl files.
 
 
-## Unit Testing:PCB
-
-Referring back to the PCB diagram, check for shorts, and check the continuity between the RPI Header and NFC Controller header to ensure each pin has their right connection. Using the multimeter and switching it to the continuity mode, put one probe on the 3V pin of the 6 pin stackable header and the 3v pin of the 9 pin header.If there is a beep coming from the multimeter then there is a connection, if there isn’t a beep there is something wrong with the soldering or the PCB. Repeat this step ( for SDA,SCL and GND). Also test the pin with other pins to see if there is any connection to non correlating pins, if there are, there is an issue with the PCB or soldering. 
+ 
 
 
 
@@ -152,9 +193,13 @@ Mount the PN532 NFC Controller onto the PCB using two M3*6 screws at the section
 Attach the lid with two M2.5 nuts nearest to the USB ports and two M3 nuts opposite to the other side.  Make sure these are finger tight and not over-torqued. They will be hard to remove if any troubleshooting has to be done with the hardware later on.
 
 
+## Unit Testing: Testing Enclosed Device
+
+Follow the terminal commands listed in [Unit Testing NFC Controller Power Up](#Unit-Testing-NFC-Controller-Power-Up). This test will demostrate if the device is still operational after the assembly with the 3D printed enclosure.
 
 
 ## Production Testing
+For a larger production of these devices, the first two unit tests can be ignored. The last unit test will be able to detect any issues. If there are issues, since the device is modular, it will be easy to take apart and troubleshoot which component was causing an issue. This method will allow to create the most devices as possible while being able to maintain the quality of the device.
 
 
 
