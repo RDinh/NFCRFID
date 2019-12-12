@@ -80,16 +80,17 @@ Here is an alternative Setup Method(With HDMI) if the headless setup does not wo
 This is an important part of the project. Problems should with setting up the NFC controller should be handled here before the full assembly.
 
 Use the following image to wire the pi.
+
 Red – 3.3V
 Orange - SDA
 Green – SCL
 Black – Ground
 
-Double check the connections before powering on the PI
+Double check the connections before powering on the PI.
 
-First run `i2cdetect -y 1` to see if the i2c address is picked up
+First run `i2cdetect -y 1` to see if the i2c address is picked up.
 
-Run `nfc-scan device` to see if the PN532 is picked up
+Run `nfc-scan device` to see if the PN532 is picked up.
 
 Run `nfc-poll` and tap the card that was provided with the Adafruit PN532. An output should be displayed on the terminal.
 
