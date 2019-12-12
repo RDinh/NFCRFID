@@ -28,7 +28,7 @@ The modular project itself deals with 4 major components: a Raspberry Pi 2 or 3,
 
 ## Bill of Materials/Budget
 
-Here is a list of the main components parts to order for the project. The total cost will depend if the parts or tools are already owned or can be loaned. Also utlizing a service such as PCB printing and 3D printing will affect the pricing. Sometimes these services are provided at a local library or makerspace on school campuses.
+Here is a list of the main components parts to order for the project. The total cost will depend if the parts or tools are already owned or can be loaned. Also utlizing a service such as PCB printing and 3D printing will affect the pricing. Sometimes these services are provided at a local library or prototype lab on school campuses.
 
 
 <table style="width:100%">
