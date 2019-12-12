@@ -62,7 +62,7 @@ When the downloads are completed, down the libNFC repository by running the comm
 Configure the configuration file by running the following command: <br></br>
 `sudo nano /etc/nfc/libnfc.conf`
 
-Add the following to the bottom of the file<br></br>
+Add the following to the bottom of the file:
 ```
 device.name = “Pn532”
 device.connstring = “pn532_i2c:/dev/i2c-1”
