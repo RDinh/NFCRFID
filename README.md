@@ -10,7 +10,7 @@
 - [Unit Testing NFC Controller Power Up](#Unit-Testing-NFC-Controller-Power-Up)
 - [PCB Soldering](#pcb-soldering)
 - [Unit Testing:PCB](#Unit-Testing-Pcb)
-- [Power Up](#power-up)
+- [3D Printing](#3D-Printing)
 - [Unit Testing](#unit-testing)
 - [Production Testing](#production-testing)
 
@@ -126,6 +126,7 @@ Feed the short side of the 3-pin header through the front of the NFC Controller 
 
 When everything has cooled down, place one jumper/shunt on SE0 on the ON position and one jumper on SE1 on the off position. This will make the NFC Controller use the I2C protocol.
 
+![alt text](Images/shunts.jpg)
 
 ## Unit Testing: NFC Controller Power Up
 This is an important part of the project. Problems with setting up the NFC controller should be handled here before the full assembly.
@@ -133,6 +134,8 @@ This is an important part of the project. Problems with setting up the NFC contr
 Use the following image to wire the pi.
 
 Red – 3.3V | Orange - SDA | Green – SCL | Black – Ground
+
+![alt text](Images/BreadboardView.png)
 
 Double check the connections before powering on the PI.
 
@@ -146,6 +149,8 @@ Run `nfc-poll` and tap the card that was provided with the Adafruit PN532. An ou
 
 
 ## PCB Soldering
+
+![alt text](Images/PN532_PCB.JPG)
 
 Using a 22AWG wire, strip around 1cm of wire and feed it through the via and solder both sides of the via pads to the wire. This will connect the bottom layer to top layer lines to their correlating pins. Snip off any excess wire and repeat this step for all (Vias on the PCB).
 
