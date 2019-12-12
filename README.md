@@ -38,9 +38,9 @@ In terms of assembly, setup and troubleshooting the project should take approxim
 
 
 ## Raspberry PI Headless Setup
-[Use the following guide to setup your raspberry PI using the Headless Setup Method(No Display Required)](https://www.tomshardware.com/reviews/raspberry-pi-headless-setup-how-to,6028.html)
+[Use the following guide to setup your raspberry PI using the Headless Setup Method(No HDMI Display Required)](https://www.tomshardware.com/reviews/raspberry-pi-headless-setup-how-to,6028.html)
 
-<b>Equipment Required:</b> Computer, Ethernet Cable, RPI 2 or 3, USB-Ethernet (if required)<br>
+<b>Equipment Required:</b> Computer, Ethernet Cable, RPI 2 or 3, RPI Power Adapter,USB-Ethernet (if required)<br>
 <b>Required Downloads:</b> Etcher, Bonjour, Putty 
 
 <b>Guide Coverage:</b>
@@ -55,7 +55,7 @@ Additional Step while in `sudo rasp-config` after enabling VNC viewer, enable th
 
 Fetch the list of updates for RPI using the command: `sudo apt-get update` and then `sudo apt-get upgrade`. Enter `Y` when prompted to do to begin the install of the updates for the Raspberry Pi. The time to complete the download and install will vary depending on the Internet download speeds.
 
-When the downloads are completed, down the libNFC repository by running the command:<br>
+When the downloads are completed, download the libNFC repository by running the command:<br>
 
 `apt-get install libnfc-bin libnfc-examples libnfc-pn53x-examples`
 
@@ -108,9 +108,9 @@ Referring back to the PCB diagram, check for shorts, and check the continuity be
 
 ## Final Assembly
 
-Please Follow these instructions carefully to prevent any damage to NFC Controller and the raspberryPi.
+Please Follow these instructions carefully to prevent any damage to NFC Controller and the Raspberry Pi.
 
-Place the raspberryPi on top of the standoffs of the RPI case with the USB Ports facing out of the case.
+Place the Raspberry Pi on top of the standoffs of the RPI case with the USB Ports facing out of the case.
 Place a M2.5*12+6 nylon Stand-off on top of the RPI Mounting Holes(screws facing up). From the bottom of the case, thread the a M2.5*6 Screws through the holes of the RPI and into the standoffs. Repeat this step 3 more times for the remaining holes of the RPI. This step will allow for the RPI to be attached to the case while creating standoffs for the PCB to sit on.
 
 
