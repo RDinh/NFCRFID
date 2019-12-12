@@ -199,7 +199,7 @@ Follow the terminal commands listed in [Unit Testing NFC Controller Power Up](#U
 
 
 ## Production Testing
-For a larger production of these devices, the first two unit tests can be ignored. The last unit test will be able to detect any issues. If there are issues, since the device is moddular, it will be easy to take apart and troubleshoot which component was causing an issue. This method will allow to create the most devices as posssible while being able to maintain the quality of the device.
+For a larger production of these devices, the first two unit tests can be ignored. The last unit test will be able to detect any issues. If there are issues, since the device is modular, it will be easy to take apart and troubleshoot which component was causing an issue. This method will allow to create the most devices as possible while being able to maintain the quality of the device.
 
 
 
