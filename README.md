@@ -65,9 +65,9 @@ Here is a list of the main components parts to order for the project. The total 
 **ALL PRICES LISTED ARE SUBJECT TO CHANGE.TAXES AND SHIPPING ARE NOT INCLUDED.**
 
 
-To get a quote for the printed PCB visit [here](https://www.seeedstudio.com/fusion_pcb.html).
+To get a quote for the printed PCB visit [here](https://www.seeedstudio.com/fusion_pcb.html). Submit these [Gerber files](Electronics/FinalDocs/Gerber) for printing.
 
-To get a quote for the 3D-printed enclosure visit [here](https://shop3d.ca/pages/upload-your-file-to-be-printed).
+To get a quote for the 3D-printed enclosure visit [here](https://shop3d.ca/pages/upload-your-file-to-be-printed). Submit these [STL files](Documentation/Cases/2pc) for printing.
 
 
 ## Time Commitment
